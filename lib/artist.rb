@@ -37,6 +37,6 @@ class Artist
 
   def print_songs
     self.songs.map {|song| puts song.name}
-  end 
+  end
 
 end
