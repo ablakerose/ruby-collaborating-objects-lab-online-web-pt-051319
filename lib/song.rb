@@ -6,7 +6,7 @@ def Song
     @name = name
   end
 
-  
+
 
 
 end
