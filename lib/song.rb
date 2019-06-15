@@ -10,7 +10,7 @@ class Song
     #"Michael Jackson - Black or White - pop.mp3"
     artist, name = filename.split(" - ")
     song = self.new(name)
-    
+
     song
   end
 
