@@ -1,4 +1,4 @@
-def Class
+def Song
 
   attr_accessor :name, :artist
 
