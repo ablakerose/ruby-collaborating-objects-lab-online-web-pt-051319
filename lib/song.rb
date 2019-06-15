@@ -1,5 +1,5 @@
-require 'pry' 
-class Song  
+require 'pry'
+class Song
   attr_accessor :name, :artist
 
   def initialize(name)
@@ -8,7 +8,7 @@ class Song
 
   def self.new_by_filename(filename)
     binding.pry
-  end 
-  
+  end
+
 
 end
