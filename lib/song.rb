@@ -1,13 +1,12 @@
-def Class 
+def Class
 
   attr_accessor :name, :artist
 
   def initialize(name)
-    @name = name 
-  end 
+    @name = name
+  end
 
   
 
-  
+
 end
-
