@@ -8,7 +8,7 @@ class MP3Importer
   def files
     binding.pry
     #return all file names in given path as an array
-    Dir.entries(path)
+    Dir.entries(path).filter { |filename| filename.end_with?('.mp3') }
   end
 
 
