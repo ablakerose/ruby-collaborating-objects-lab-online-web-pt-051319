@@ -6,6 +6,7 @@ class MP3Importer
   end
 
   def files
+    binding.pry
     #return all file names in given path as an array
     Dir.entries(path)
   end
